@@ -18,7 +18,6 @@ class Schema4to5 : AutoMigrationSpec {
         )
         val prefixToRemove = arrayOf(
             "https://ehgt.org/",
-            "https://s.exhentai.org/t/",
             "https://exhentai.org/t/",
         )
         needMigrationTables.forEach { table ->
